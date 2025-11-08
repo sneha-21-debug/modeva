@@ -1,0 +1,7 @@
+name,category,price,description,image_path,stock,featured
+Elegant Tote,handbags,1899,Stylish leather tote bag,media/product_images/handbag1.jpg,10,True
+Classic Shoulder Bag,handbags,1599,Premium PU handbag,media/product_images/handbag2.jpg,15,False
+Ava Clutch,handbags,999,Evening clutch for parties,media/product_images/handbag3.jpg,20,True
+RayPro Shades,sunglasses,1299,Polarized UV400 sunglasses,media/product_images/sunglass1.jpg,10,True
+Urban Walk Sneakers,footwear,2499,Stylish sneakers for casual wear,media/product_images/shoes1.jpg,12,True
+Royal Gold Watch,watches,2999,Stainless steel analog watch,media/product_images/watch1.jpg,8,True

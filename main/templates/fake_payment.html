@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container text-center" style="padding:50px;">
+  <h2>💳 Online Payment</h2>
+  <p>Simulated Payment Gateway</p>
+  <p>Amount to Pay: <strong>₹{{ total }}</strong></p>
+  <hr>
+
+  <form method="post" action="{% url 'payment_success' %}">
+    {% csrf_token %}
+    <input type="hidden" name="total" value="{{ total }}">
+    <button type="submit" class="btn btn-dark btn-lg">Pay Now</button>
+  </form>
+
+  <p style="margin-top:20px; color:gray;">(This is a demo — no real payment will be made)</p>
+</div>
+{% endblock %}
